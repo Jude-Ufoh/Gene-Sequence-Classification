@@ -7,7 +7,7 @@ The aim of the code is to preprocess promoter gene sequence data and evaluate th
 The dataset used for this analysis was sourced from the Machine Learning Repository at the UCI
 
 ### Tools
--Google Colab [Download here](https://colab.research.google.com/)
+-Google Colab. [Download here](https://colab.research.google.com/)
 
 ### Data Cleaning/Preparation
 
