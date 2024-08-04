@@ -9,19 +9,18 @@ The dataset used for this analysis was sourced from the Machine Learning Reposit
 ### Tools
 -Google Colab. [Download here](https://colab.research.google.com/)
 
-### Data Cleaning/Preparation
+### Project Summary
 
-### Exploratory Data Analysis
+- **Library Import**: The necessary library for data handlin, preprocessing, model building and evaluation
+- **Data Loading** - The dataset was loaded directly from UCI repository
+- **Data Preprocessing** - The data sequence was split into individual nucleotide and encoded as numerical values using **LabelEncoer**
+- **Data Splitting** - The features and labels were separated an the data was split into training and testing sets.
+- **Model Definition**- defined a set of machine learning models including Random Forest, AdaBoost, KNN, Naive Bayes, and different SVMKernels.
+- **Cross-Validation:** Perform 10-fold cross-validation to evaluate each model, printing their mean accuracy and standard deviation.
+- **Model Training and Evaluation:** Trained each model on the training set and evaluate them on the test set, printing the accuracy and classification report for each.
 
-### Data Analysis
-~~~ Python
-import sys
-import numpy as np
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
-import sklearn
+### Result
+The result showed that the adaBoost gave the highest accuracy
 
-plt.rcParams['figure.figsize'] = (8, 8)
+
 
